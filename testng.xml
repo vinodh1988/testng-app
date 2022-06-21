@@ -5,7 +5,11 @@
       <classes>
       <class name="com.testcases.TestUnit"/>
       <class name="com.testcases.GeneralTest"/>
-       <class name="com.testcases.SeleniumTests"/>
+       <class name="com.testcases.SeleniumTests">
+          <methods>
+             <exclude name="test"></exclude>
+          </methods>
+       </class>
       </classes>
       
   </test> 

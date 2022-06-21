@@ -9,4 +9,6 @@ public class DriverProvider {
 	       WebDriver wd=new ChromeDriver();
 	       return wd;
 	   }
+	  
+	  
 }
